@@ -351,6 +351,7 @@ PODS:
     - React-logger (= 0.71.11)
     - React-perflogger (= 0.71.11)
   - Yoga (1.14.0)
+  - ZeotapCollect (1.0.1)
 
 DEPENDENCIES:
   - boost (from `../node_modules/react-native/third-party-podspecs/boost.podspec`)
@@ -389,11 +390,13 @@ DEPENDENCIES:
   - React-runtimeexecutor (from `../node_modules/react-native/ReactCommon/runtimeexecutor`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+  - ZeotapCollect (~> 1.0.1)
 
 SPEC REPOS:
   trunk:
     - fmt
     - libevent
+    - ZeotapCollect
 
 EXTERNAL SOURCES:
   boost:
@@ -502,7 +505,8 @@ SPEC CHECKSUMS:
   React-runtimeexecutor: 4817d63dbc9d658f8dc0ec56bd9b83ce531129f0
   ReactCommon: 08723d2ed328c5cbcb0de168f231bc7bae7f8aa1
   Yoga: f7decafdc5e8c125e6fa0da38a687e35238420fa
+  ZeotapCollect: f4fb76a426eca091b3662b47d2a17124317d24ed
 
-PODFILE CHECKSUM: fd6451ede84561f4d181994ad793c3ca8ffb6897
+PODFILE CHECKSUM: ec83668d7f67a024ecd7f40af8cb7a8982bf4939
 
 COCOAPODS: 1.12.1

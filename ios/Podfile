@@ -113,9 +113,9 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 target 'ManualIosSdk' do
 
-  config = use_native_modules!
+ config = use_native_modules!
 
-  use_react_native!(:path => config[:reactNativePath])
+ use_react_native!(:path => config[:reactNativePath])
 
   podspec path: '../react-native-manual-ios-sdk.podspec'
 

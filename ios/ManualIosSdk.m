@@ -1,6 +1,6 @@
 #import <React/RCTBridgeModule.h>
 
-@interface RCT_EXTERN_MODULE(CollectModule, NSObject)
+@interface RCT_EXTERN_MODULE(ManualIosSdk, NSObject)
 RCT_EXTERN_METHOD(initSDK)
 RCT_EXTERN_METHOD(setEventNameProperties: (NSString *)eventName);
 RCT_EXTERN_METHOD(setEventProperties: (NSString *)eventName event:(NSDictionary *) eventProp)
