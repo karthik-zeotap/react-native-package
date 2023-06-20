@@ -20,3 +20,12 @@ const ManualIosSdk = NativeModules.ManualIosSdk
 export function multiply(a: number, b: number): Promise<number> {
   return ManualIosSdk.multiply(a, b);
 }
+
+export function initSDK() {
+  return ManualIosSdk.initSDK();
+}
+
+
+export function setEventNameProperties(s: String) {
+  return ManualIosSdk.setEventNameProperties(s);
+}
