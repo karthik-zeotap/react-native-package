@@ -1,17 +1,11 @@
-# react-native-manual-ios-sdk
+# react-native-package
 
 testing package by manual ios sdk
-
-## Installation
-
-```sh
-npm install react-native-manual-ios-sdk
-```
 
 ## Usage
 
 ```js
-import { multiply } from 'react-native-manual-ios-sdk';
+import { multiply } from 'react-native-package';
 
 // ...
 
