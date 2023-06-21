@@ -1,6 +1,6 @@
 # react-native-package
 
-testing package by manual ios sdk
+testing package for iOS sdk
 
 ## Usage
 
